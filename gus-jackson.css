@@ -1,0 +1,35 @@
+html{
+	margin: 0;
+	height: 100%;
+}
+body{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  list-style: none;
+  background-color: #d8d9d7;
+}
+.gus-percentage{
+  width: 100%;
+  height: 100%;
+  
+  z-index: 20;
+  display: grid;
+  place-items:center;
+}
+.thirty{
+	display: grid;
+	place-items:center;
+	width: 100%;
+}
+.true-thirty{
+	width: 100%;
+}
+.cocker{
+	position: fixed;
+	display: flex;
+	z-index: -1;
+	width: 100%;
+}
