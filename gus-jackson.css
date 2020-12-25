@@ -15,6 +15,21 @@ body{
 	display: grid;
 	place-items:center;
 }
+.landing-photo{
+	z-index: 10;
+	position: fixed;
+	display: grid;
+	place-items:center;
+	top: 15%;
+	background-color: 
+}
+.landing-photo img{
+	width: 30%;
+}
+.landing-photo img:hover{
+	cursor: pointer;
+	opacity: 90%;
+}
 .percent-container{
 	display: grid;
 	position: relative;
@@ -24,10 +39,9 @@ body{
 .percent{
 	position: relative;
 }
-.dog-1{
+.dog-1, .dog-2, .dog-3, .dog-4, .dog-5, .dog-6{
 	position: relative;
 	display: none;
-	max-height: 150px;
 }
 img{
 	max-width: 75%;
@@ -151,3 +165,11 @@ img{
     100% {
       -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
       transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
+
+
+@media screen and (max-width: 768px) {
+	.landing-photo img{
+	width: 50%;
+}
+
+}
