@@ -8,7 +8,7 @@ body{
   height: 100%;
   display: flex;
   list-style: none;
-  background-color: orange;
+  background-color: #cdcad3;
 }
 .gus-percentage{
 	width: 100%;
@@ -39,7 +39,7 @@ body{
 .percent{
 	position: relative;
 }
-.dog-1, .dog-2, .dog-3, .dog-4, .dog-5, .dog-6{
+#dog-1, #dog-2, #dog-3, #dog-4, #dog-5, #dog-6{
 	position: relative;
 	display: none;
 }
